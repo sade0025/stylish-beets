@@ -1,13 +1,12 @@
 html {
   font-family: 'PT Sans', bold, 'PT serif', regular, italic. bold ;
 }
-h1{
+header {
   font-size: 1.5rem;
 }
-h2{
+h2 {
   font-size: 1.125rem;
 }
-h3{
-  color: blue;
+h3 {
   font-size: 0.8rem;
 }
