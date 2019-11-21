@@ -2,19 +2,49 @@ html {
   font-family: 'PT Serif'(regular) ;
 }
 body {
-  background-color: #c9b5ab:
+  background-color: #c9b5ab;
+}
+h1{
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bolder;
+  line-height: 1.5;
+  color: #3f1622;
+
+  line-height: 1.5rem;
+}
+nav {
+  font-size: "PT sans"
+}
+nav > ol {
+  list-style-type: none;
+  font-family: 'PT Sans', sans-serif;
+}
+nav  a {
+  font-weight: bolder;
+  color : #8f2440;
+  text-decoration: none;
 }
 h2 {
+  font-weight: 300;
   font-size: 1.125rem;
   color: #3f1622;
 
 }
 .to {
-  font-style: 'PT sans'(bold);
+font-family: 'PT Serif', serif;
+font-weight: bolder;
+font-size: 1.5rem;
+text-align: left;
+}
+p {
+  font-family: 'PT Serif', serif;
+  font-size: 1.25rem;
 }
 blockquote {
-  font: 'PT serif'(italic);
-  font-size: 1.125rem;
+font-family: 'PT Serif', serif;
+font-style: italic;
+max-width: 30rem;
+font-size: 1.5rem;
 }
 cite {
   font-size: 0.8rem;
@@ -31,4 +61,13 @@ dl dd {
 }
 .Red {
   color : #8f2440;
+}
+main {
+  font-family: 'PT Serif', serif;
+}
+figure figcaption {
+  text-align: center;
+}
+p cite {
+  font-size:
 }
