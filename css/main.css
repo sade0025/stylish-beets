@@ -1,73 +1,71 @@
 html {
-  font-family: 'PT Serif'(regular) ;
+  font-family: "PT Sans";
+  font-weight: normal;
+  box-sizing: border-box;
 }
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 body {
-  background-color: #c9b5ab;
-}
-h1{
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Serif", sans-serif;
   font-weight: bolder;
   line-height: 1.5;
-  color: #3f1622;
+  background-color: #c9b5ab;
+}
 
-  line-height: 1.5rem;
+h1 {
+  color: #3f1622;
 }
-nav {
-  font-size: "PT sans"
-}
-nav > ol {
+
+li, a {
   list-style-type: none;
-  font-family: 'PT Sans', sans-serif;
-}
-nav  a {
-  font-weight: bolder;
-  color : #8f2440;
   text-decoration: none;
-}
-h2 {
-  font-weight: 300;
-  font-size: 1.125rem;
-  color: #3f1622;
-
-}
-.to {
-font-family: 'PT Serif', serif;
-font-weight: bolder;
-font-size: 1.5rem;
-text-align: left;
-}
-p {
-  font-family: 'PT Serif', serif;
-  font-size: 1.25rem;
-}
-blockquote {
-font-family: 'PT Serif', serif;
-font-style: italic;
-max-width: 30rem;
-font-size: 1.5rem;
-}
-cite {
-  font-size: 0.8rem;
+  color: #8f2440;
+  font-weight: bold;
 }
 
-h3 {
-  font-size: 0.8rem;
+figcaption {
+  font-weight: normal;
+  font-style: italic;
+  line-height: 1.5em;
+  color: #222;
 }
-ol {
-  order: "alphabetic"
-}
-dl dd {
-  font-style: "PT sans"(bold)
-}
-.Red {
-  color : #8f2440;
-}
-main {
-  font-family: 'PT Serif', serif;
-}
+
 figure figcaption {
   text-align: center;
 }
-p cite {
-  font-size:
+
+h2 {
+  color: #3f1622;
+}
+
+.common {
+  list-style-type: lower-greek;
+}
+
+h2, ul, li {
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #3f1622;
+}
+
+img {
+  width: 100%;
+}
+
+aside ul li {
+  color: #222;
+  font-weight: normal;
 }
